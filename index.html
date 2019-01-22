@@ -1,4 +1,31 @@
-<link href="https://unpkg.com/readable-css/css/readable.css" rel="stylesheet" />
-<textarea id='text'></textarea>
-<button onclick='view.innerText = text.value'>Update</button>
-<p id='view' class='readable-content'></p>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+</head>
+<body>
+  <link href="https://unpkg.com/readable-css/css/readable.css" rel="stylesheet" />
+<style>
+.header {
+  width: 100%;
+}
+.title {
+  font-weight: bold;
+}
+.fork {
+  float: inline-end;
+}
+</style>
+  <div class='header'>
+    <span class='title'>Readable Text</span>
+    <span class='fork'>Fork me on <a href='https://github.com/beenotung/readable-text'>Github</a></span>
+  </div>
+  <textarea id='text' placeholder='paste the text here'></textarea>
+  <button onclick='view.innerText = text.value'>Update</button>
+  <p id='view' class='readable-content'></p>
+</body>
+</html>
