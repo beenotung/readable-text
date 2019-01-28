@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+set -o pipefail
+test -d node_modules || npm i
+mkdir -p dist
+cp index.html dist/index.html
+cp node_modules/readable-css/css/readable.min.css dist/readable.min.css
+surge dist readable-text.surge.sh
