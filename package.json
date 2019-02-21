@@ -1,0 +1,23 @@
+{
+  "name": "readable-text",
+  "version": "1.0.0",
+  "description": "Turn the plain text into readable format for on-screen reading.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beenotung/readable-text.git"
+  },
+  "keywords": [],
+  "author": "Beeno Tung",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/beenotung/readable-text/issues"
+  },
+  "homepage": "https://github.com/beenotung/readable-text#readme",
+  "dependencies": {
+    "readable-css": "^0.3.0"
+  },
+  "devDependencies": {}
+}
